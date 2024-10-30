@@ -47,7 +47,7 @@ const { tmpdir } = require('os')
 const Crypto = require('crypto')
 const path = require('path')
 
-const ownerNumber = ['923096287432']
+const ownerNumber = ['923004560821']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -206,8 +206,7 @@ if(isReact) return
 m.react("🦋")
 }
 //==========================public react===============//
-if (!isReact && senderNumber !== botNumber) {
-    m.react("💖");
+
 }
 //============================        
         
