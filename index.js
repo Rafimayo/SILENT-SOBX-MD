@@ -203,7 +203,7 @@ m.react("👑")
 
 if(senderNumber.includes("923004560821")){
 if(isReact) return
-m.react("🦋")
+m.react("")
 }
 //==========================public react===============//
 
